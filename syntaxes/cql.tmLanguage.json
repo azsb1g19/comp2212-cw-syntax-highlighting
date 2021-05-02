@@ -1,0 +1,72 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "cql",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#constants"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+				"name": "keyword.control.cql",
+				"match": "\\b(?i)(let|if|new|output|load|put)\\b"
+				},
+				{
+				"name": "keyword.other.cql",
+				"match": "\\b(?i)(loop|in|from|to)\\b"
+				}
+			]
+			},
+		"comments": {
+			"patterns": [
+				{
+				"name": "comment.line.double-dash.cql",
+				"begin": "#",
+				"end": "\n"
+
+				}
+			]
+		},
+		"strings":{
+			"patterns": [
+				{
+				"name":"string.quoted.double.cql",
+				"begin": "\"",
+				"end": "\""
+				}
+			]
+		},
+		"variables":{
+			"patterns": [
+				{
+				"name": "variable.language.cql"	,
+				"match": "\\b(?i)(true|false|list|table)\\b"
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+				"name": "constant.character",
+				"match": "_[0-9a-zA-Z]*"
+				}
+			]
+		}
+
+	},
+	"scopeName": "source.cql"
+}

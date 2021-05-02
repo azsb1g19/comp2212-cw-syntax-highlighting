@@ -1,9 +1,9 @@
 {
     "name": "vsc-redshift-extension",
     "displayName": "vsc_redshift_extension",
-    "description": "A VSC extension to support Redshift (AWS) sql work",
+    "description": "A VSC extension to support custom cql language",
     "publisher": "0",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.35.0"
     },
@@ -12,15 +12,15 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "sql",
-            "aliases": ["sql", "sql"],
-            "extensions": [".sql"],
+            "id": "cql",
+            "aliases": ["cql", "cql"],
+            "extensions": [".cql"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "sql",
-            "scopeName": "source.sql",
-            "path": "./syntaxes/sql.tmLanguage.json"
+            "language": "cql",
+            "scopeName": "source.cql",
+            "path": "./syntaxes/cql.tmLanguage.json"
         }]
     }
 }
