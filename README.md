@@ -1,1 +1,6 @@
 # Adapted from https://github.com/ronsoak/vsc_redshift_extension for CQL language created for coursework.
+
+## Install extension
+
+* To start using extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
+* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.

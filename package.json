@@ -1,6 +1,6 @@
 {
-    "name": "vsc-redshift-extension",
-    "displayName": "vsc_redshift_extension",
+    "name": "vsc-cql-extension",
+    "displayName": "vsc_cql_extension",
     "description": "A VSC extension to support custom cql language",
     "publisher": "0",
     "version": "1.0.0",
