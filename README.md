@@ -3,6 +3,5 @@
 ## Install extension
 
 * To start using extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
 
 ![image](https://user-images.githubusercontent.com/79709447/116864980-ac8f9300-ac00-11eb-98ad-e1639a14621e.png)
