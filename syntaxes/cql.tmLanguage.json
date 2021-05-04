@@ -23,7 +23,7 @@
 			"patterns": [
 				{
 				"name": "keyword.control.cql",
-				"match": "\\b(?i)(let|if|new|output|load|put)\\b"
+				"match": "\\b(?i)(let|if|else|new|output|load|put)\\b"
 				},
 				{
 				"name": "keyword.other.cql",
